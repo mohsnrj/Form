@@ -1,0 +1,88 @@
+body{
+    /*background-image: url("OCTOBER 2, 2020.jpg");*/
+    /*background: rgb(34,193,195);*/
+    /*background: linear-gradient(146deg, rgba(34,193,195,1) 0%, rgba(34,193,195,1) 46%, rgba(199,225,226,1) 100%);*/
+    background-repeat: no-repeat;
+    /*height: 97.5vh;*/
+    margin: 12vh auto;
+    background-size: 100%;
+    background-position: center;
+}
+@media screen and (min-width: 300px ) {
+    body {
+        background-image: url("Blue green water, aerial view, rocks, coast, 1080x2160 wallpaper.jpg");
+    }
+}
+@media screen and (min-width: 700px) {
+    body {
+        background-image: url("OCTOBER 2, 2020.jpg");
+    }
+
+
+}
+form{
+    position: relative;
+    top: 25%;
+    background-color: white;
+    margin: auto;
+    padding: 5px 3px ;
+    height: 22rem;
+    width: 16rem;
+    text-align: center;
+    border: 1px solid #adb5bd;
+    border-radius: 25px;
+    font-family: Tahoma;
+}
+header{
+    /*position: relative;*/
+    /*top: 10rem;*/
+    padding: 2rem ;
+}
+header::before{
+    content: 'Loging';
+    color: lightseagreen;
+    font-size: large;
+}
+input{
+    appearance: auto;
+    border: none;
+    border-bottom: 3px solid lightseagreen;
+    padding: 0.75rem;
+    box-sizing: border-box;
+}
+input:focus{
+    /*border-color: inherit;*/
+    outline: 0;
+    border-bottom: 3px solid indianred;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+
+}
+.submit{
+    color: #f1f1f1;
+    padding: 8px 85px;
+    margin: 19px 8px;
+    border : none;
+    background: rgb(173,237,240);
+    background: linear-gradient(90deg, rgba(173,237,240,1) 0%, rgba(34,193,195,1) 46%, rgba(34,193,195,1) 100%);
+    border-radius: 5px;
+}
+.submit:hover{
+    cursor: pointer;
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(34,193,195,1) 46%, rgba(173,237,240,1) 100%);
+}
+div{
+    font-size: smaller;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+.first{
+    color: #03071e;
+}
+.second{
+    color: royalblue;
+}
