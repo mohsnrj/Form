@@ -8,7 +8,7 @@ body{
     background-size: 100%;
     background-position: center;
 }
-@media screen and (min-width: 300px ) {
+@media screen and (min-width: 100px ) {
     body {
         background-image: url("Blue green water, aerial view, rocks, coast, 1080x2160 wallpaper.jpg");
     }
