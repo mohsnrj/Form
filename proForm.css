@@ -32,6 +32,7 @@ form{
     border: 1px solid #adb5bd;
     border-radius: 25px;
     font-family: Tahoma;
+    opacity: 90%;
 }
 header{
     /*position: relative;*/
