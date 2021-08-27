@@ -5,29 +5,33 @@ body{
     background-repeat: no-repeat;
     /*height: 97.5vh;*/
     margin: 12vh auto;
-    background-size: 100%;
+    background-size: 170%;
     background-position: center;
 }
 @media screen and (min-width: 100px ) {
     body {
         background-image: url("Blue green water, aerial view, rocks, coast, 1080x2160 wallpaper.jpg");
     }
+    form{
+        height: 30%;
+        width: 67%;
+    }
 }
-@media screen and (min-width: 700px) {
+@media screen and  (min-width: 700px) {
     body {
         background-image: url("OCTOBER 2, 2020.jpg");
     }
-
-
+    form{
+        height: 22rem;
+        width: 16rem;
+    }
 }
 form{
     position: relative;
-    top: 25%;
+    top: 30%;
     background-color: white;
     margin: auto;
     padding: 5px 3px ;
-    height: 22rem;
-    width: 16rem;
     text-align: center;
     border: 1px solid #adb5bd;
     border-radius: 25px;
